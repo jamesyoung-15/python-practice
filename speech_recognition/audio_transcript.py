@@ -9,4 +9,3 @@ result = model.transcribe(filename)
 with open(output_name,'w') as f:
     f.write(result["text"])
 
-# ffmpeg -i filename.mp4 filename.mp3
